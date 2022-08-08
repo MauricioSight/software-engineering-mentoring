@@ -6,7 +6,8 @@
 def search(arr, n, x):
 
 	for i in range(0, n):
-        #Complete the function here
+        	if (arr[i] == x):
+        		return i
 	return -1
 
 
